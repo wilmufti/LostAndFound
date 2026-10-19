@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="80" viewBox="0 0 180 80" role="img" aria-labelledby="title desc">
+  <title id="title">Logo Lost Found Campus</title>
+  <desc id="desc">Ikon kaca pembesar dan pin lokasi untuk layanan barang hilang kampus.</desc>
+  <rect width="180" height="80" rx="12" fill="#eef6ff"/>
+  <circle cx="54" cy="36" r="18" fill="none" stroke="#1261a6" stroke-width="8"/>
+  <line x1="68" y1="50" x2="88" y2="66" stroke="#1261a6" stroke-width="8" stroke-linecap="round"/>
+  <path d="M124 16c-15 0-26 11-26 25 0 20 26 39 26 39s26-19 26-39c0-14-11-25-26-25z" fill="#1f8a70"/>
+  <circle cx="124" cy="41" r="8" fill="#ffffff"/>
+  <text x="96" y="32" font-family="Arial, sans-serif" font-size="12" fill="#123">Lost</text>
+  <text x="96" y="49" font-family="Arial, sans-serif" font-size="12" fill="#123">Found</text>
+</svg>

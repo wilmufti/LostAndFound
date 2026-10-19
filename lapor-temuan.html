@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Lapor Barang Temuan - Lost Found Campus</title>
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-brand" href="index.html" aria-label="Campus Lost and Found, beranda"><span class="brand-mark" aria-hidden="true">⌕</span><span>Campus L&amp;F</span></a>
+    <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Buka menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+    <nav id="main-nav" aria-label="Navigasi utama" data-open="false"><ul>
+      <li><a href="index.html">Beranda</a></li><li><a href="daftar-laporan.html">Cari Barang</a></li><li><a href="lapor-hilang.html">Lapor Barang</a></li><li><a href="percakapan-petugas.html">Bantuan</a></li><li><a class="nav-login" href="masuk.html">Masuk</a></li>
+    </ul></nav>
+  </header>
+  <div class="page-toolbar"><a class="back-link" href="dashboard.html"><span aria-hidden="true">←</span> Kembali</a></div>
+
+  <main>
+    <section>
+      <h1>Form laporan barang ditemukan</h1>
+      <p>Laporkan barang yang ditemukan agar petugas dapat memverifikasi dan menghubungi pemilik yang sesuai.</p>
+      <figure>
+        <img src="./assets/images/item-card.svg" alt="Ilustrasi kartu, kunci, dan tas sebagai contoh barang temuan" width="480" height="260">
+        <figcaption>Contoh kategori barang yang sering dilaporkan.</figcaption>
+      </figure>
+      <form action="#" method="post" data-report-form="temuan">
+        <fieldset>
+          <legend>Data barang temuan</legend>
+          <p>
+            <label for="nama-temuan">Nama barang</label>
+            <input type="text" id="nama-temuan" name="nama-temuan" required>
+          </p>
+          <p>
+            <label for="lokasi-temuan">Lokasi ditemukan</label>
+            <input type="text" id="lokasi-temuan" name="lokasi-temuan" required>
+          </p>
+          <p>
+            <label for="tanggal-temuan">Tanggal ditemukan</label>
+            <input type="date" id="tanggal-temuan" name="tanggal-temuan" required>
+          </p>
+          <p>
+            <label for="deskripsi-temuan">Deskripsi barang</label>
+            <textarea id="deskripsi-temuan" name="deskripsi-temuan" rows="5" required></textarea>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Penyerahan barang</legend>
+          <p>
+            <label for="lokasi-penyimpanan">Lokasi penyimpanan sementara</label>
+            <select id="lokasi-penyimpanan" name="lokasi-penyimpanan" required>
+              <option value="">Pilih lokasi</option>
+              <option value="pos-keamanan">Pos keamanan</option>
+              <option value="administrasi">Ruang administrasi</option>
+              <option value="perpustakaan">Meja perpustakaan</option>
+            </select>
+          </p>
+          <p>
+            <label for="nama-penemu">Nama penemu</label>
+            <input type="text" id="nama-penemu" name="nama-penemu" required>
+          </p>
+          <p>
+            <button type="submit">Kirim laporan temuan</button>
+          </p>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Lost Found Campus - laporan barang temuan.</p>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>

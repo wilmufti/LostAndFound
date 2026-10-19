@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Peta lokasi kampus</title>
+  <desc id="desc">Ilustrasi peta sederhana berisi gedung perpustakaan, kantin, dan ruang administrasi.</desc>
+  <rect width="640" height="360" fill="#f5f9f6"/>
+  <path d="M60 260C160 190 220 300 320 225c100-75 170 20 260-70" fill="none" stroke="#9fc5e8" stroke-width="30" stroke-linecap="round"/>
+  <rect x="90" y="70" width="130" height="80" fill="#ffffff" stroke="#1261a6" stroke-width="4"/>
+  <text x="110" y="118" font-family="Arial, sans-serif" font-size="18" fill="#123">Perpus</text>
+  <rect x="280" y="55" width="120" height="95" fill="#ffffff" stroke="#1f8a70" stroke-width="4"/>
+  <text x="308" y="110" font-family="Arial, sans-serif" font-size="18" fill="#123">Kantin</text>
+  <rect x="440" y="200" width="130" height="80" fill="#ffffff" stroke="#c28a00" stroke-width="4"/>
+  <text x="462" y="248" font-family="Arial, sans-serif" font-size="18" fill="#123">Admin</text>
+  <path d="M500 154c-18 0-32 14-32 32 0 25 32 54 32 54s32-29 32-54c0-18-14-32-32-32z" fill="#d9534f"/>
+  <circle cx="500" cy="186" r="10" fill="#ffffff"/>
+</svg>

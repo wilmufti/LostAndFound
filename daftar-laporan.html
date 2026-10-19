@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css"><title>Cari Barang — Campus L&amp;F</title>
+</head>
+<body class="search-page">
+  <header class="site-header">
+    <a class="site-brand" href="index.html"><span class="brand-mark" aria-hidden="true">⌕</span><span>Campus L&amp;F</span></a>
+    <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Buka menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+    <nav id="main-nav" aria-label="Navigasi utama" data-open="false"><ul><li><a href="dashboard.html">Dashboard</a></li><li><a href="daftar-laporan.html" aria-current="page">Cari Barang</a></li><li><a href="status-klaim.html">Laporan Saya</a></li><li><a href="masuk.html">Alya Putri</a></li></ul></nav>
+  </header>
+  <div class="page-toolbar"><a class="back-link" href="dashboard.html"><span aria-hidden="true">←</span> Kembali</a></div>
+  <main class="search-main">
+    <form class="search-toolbar" action="#" method="get" data-report-filter>
+      <label class="visually-hidden" for="kata-kunci">Cari barang</label><input type="search" id="kata-kunci" name="kata-kunci" placeholder="dompet atau kartu berwarna cokelat">
+      <label class="visually-hidden" for="lokasi">Lokasi ditemukan</label><select id="lokasi" name="lokasi"><option value="semua">Semua Lokasi</option><option>Gedung A</option><option>Gedung B</option><option>Perpustakaan</option></select>
+      <label class="visually-hidden" for="tanggal">Rentang waktu</label><select id="tanggal" name="tanggal"><option value="semua">7 hari terakhir</option><option>Hari ini</option><option>30 hari terakhir</option></select>
+      <button type="submit"><span aria-hidden="true">⌕</span> Cari Barang</button>
+    </form>
+    <div class="search-layout">
+      <aside class="search-filters" aria-label="Filter pencarian">
+        <h2>Filter Pencarian</h2>
+        <fieldset><legend>Kategori</legend>
+          <label><input type="checkbox" value="elektronik" data-filter-category> Elektronik</label>
+          <label><input type="checkbox" value="dokumen" data-filter-category> Dokumen</label>
+          <label><input type="checkbox" value="aksesori" data-filter-category> Aksesori</label>
+          <label><input type="checkbox" value="tas" data-filter-category> Tas &amp; Pakaian</label>
+        </fieldset>
+        <fieldset><legend>Lokasi Ditemukan</legend>
+          <label><input type="checkbox" value="gedung a" data-filter-location> Gedung A</label>
+          <label><input type="checkbox" value="gedung b" data-filter-location> Gedung B</label>
+          <label><input type="checkbox" value="perpustakaan" data-filter-location> Perpustakaan</label>
+          <label><input type="checkbox" value="kantin" data-filter-location> Kantin</label>
+          <label><input type="checkbox" value="parkiran" data-filter-location> Parkiran</label>
+        </fieldset>
+        <fieldset><legend>Tanggal Ditemukan</legend><input aria-label="Tanggal mulai" type="date" name="tanggal-mulai"><span class="date-separator">sampai</span><input aria-label="Tanggal akhir" type="date" name="tanggal-akhir"></fieldset>
+        <button type="button" data-apply-filter>Terapkan Filter</button>
+      </aside>
+      <section class="search-results" aria-labelledby="results-title">
+        <div class="results-heading"><div><h1 id="results-title">Barang yang mungkin cocok</h1><p data-result-count>Menampilkan 6 dari 128 barang temuan</p></div><label class="visually-hidden" for="sort">Urutkan</label><select id="sort"><option>Terbaru ditemukan</option><option>Nama barang</option></select></div>
+        <div class="listing-grid" data-search-results>
+          <article class="listing-card" data-category="aksesori" data-location="gedung a"><a class="item-art item-art-wallet" href="detail-laporan.html" aria-label="Dompet Kulit Cokelat"><span>▰</span></a><div class="listing-info"><div><h2>Dompet Kulit Cokelat</h2><span class="category-pill">DOMPET</span></div><p>◉ Gedung A · Lt. 2</p><p>◷ 04 Okt 2026 · 20.31</p><a href="detail-laporan.html">Lihat Detail</a></div></article>
+          <article class="listing-card" data-category="aksesori" data-location="parkiran"><a class="item-art item-art-keys" href="detail-laporan.html" aria-label="Kunci Motor dan Gantungan"><span>⚿</span></a><div class="listing-info"><div><h2>Kunci Motor + Gantungan</h2><span class="category-pill">KUNCI</span></div><p>◉ Parkiran Utama</p><p>◷ 04 Okt 2026 · 20.23</p><a href="detail-laporan.html">Lihat Detail</a></div></article>
+          <article class="listing-card" data-category="tas" data-location="kantin"><a class="item-art item-art-bag" href="detail-laporan.html" aria-label="Tas ransel hitam"><span>▱</span></a><div class="listing-info"><div><h2>Tas Ransel Hitam</h2><span class="category-pill">TAS</span></div><p>◉ Kantin Atas</p><p>◷ 04 Okt 2026 · 06.48</p><a href="detail-laporan.html">Lihat Detail</a></div></article>
+          <article class="listing-card" data-category="aksesori" data-location="perpustakaan"><a class="item-art item-art-bottle" href="detail-laporan.html" aria-label="Botol Minum Hijau"><span>▯</span></a><div class="listing-info"><div><h2>Botol Minum Hijau</h2><span class="category-pill">BOTOL</span></div><p>◉ Perpustakaan · Lt. 3</p><p>◷ 04 Okt 2026 · 10.02</p><a href="detail-laporan.html">Lihat Detail</a></div></article>
+          <article class="listing-card" data-category="elektronik" data-location="gedung c"><a class="item-art item-art-calc" href="detail-laporan.html" aria-label="Kalkulator Scientific"><span>▦</span></a><div class="listing-info"><div><h2>Kalkulator Scientific</h2><span class="category-pill">ELEKTRONIK</span></div><p>◉ Gedung C · E 104</p><p>◷ 04 Okt 2026 · 11.48</p><a href="detail-laporan.html">Lihat Detail</a></div></article>
+          <article class="listing-card" data-category="dokumen" data-location="gedung b"><a class="item-art item-art-card" href="detail-laporan.html" aria-label="Kartu Mahasiswa"><span>▤</span></a><div class="listing-info"><div><h2>Kartu Mahasiswa</h2><span class="category-pill">DOKUMEN</span></div><p>◉ Sekretariat Lt. 1</p><p>◷ 04 Okt 2026 · 12.10</p><a href="detail-laporan.html">Lihat Detail</a></div></article>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>

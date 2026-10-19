@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Campus L&amp;F — Lost &amp; Found Kampus</title>
+</head>
+<body class="home-page">
+  <header class="site-header">
+    <a class="site-brand" href="index.html" aria-label="Campus Lost and Found, beranda">
+      <span class="brand-mark" aria-hidden="true">⌕</span>
+      <span>Campus L&amp;F</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Buka menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <nav id="main-nav" aria-label="Navigasi utama" data-open="false">
+      <ul>
+        <li><a href="index.html" aria-current="page">Beranda</a></li>
+        <li><a href="daftar-laporan.html">Cari Barang</a></li>
+        <li><a href="lapor-hilang.html">Lapor Barang</a></li>
+        <li><a href="percakapan-petugas.html">Bantuan</a></li>
+        <li><a class="nav-login" href="masuk.html">Masuk</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="page-toolbar"><a class="back-link" href="dashboard.html"><span aria-hidden="true">←</span> Kembali</a></div>
+
+  <main class="home-main">
+    <section class="home-hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Layanan resmi kampus</p>
+        <h1 id="hero-title">Barangmu mungkin lebih dekat dari yang kamu kira.</h1>
+        <p class="hero-description">Campus L&amp;F membantu warga kampus mencari, melaporkan, dan mengambil barang dengan proses yang aman serta transparan.</p>
+        <form class="hero-search" action="daftar-laporan.html" method="get">
+          <label class="visually-hidden" for="hero-query">Cari barang hilang</label>
+          <input id="hero-query" type="search" name="kata-kunci" placeholder="Cari barang hilangmu di sini...">
+          <button type="submit">Cari Barang</button>
+        </form>
+        <div class="hero-actions">
+          <a class="button button-primary" href="daftar-laporan.html"><span aria-hidden="true">⌕</span> Cari Barang</a>
+          <a class="button button-secondary" href="lapor-hilang.html"><span aria-hidden="true">＋</span> Lapor Barang</a>
+        </div>
+        <p class="hero-note">Terbuka untuk mahasiswa, dosen, staf, dan tenaga kependidikan.</p>
+      </div>
+      <figure class="hero-visual">
+        <img src="./assets/images/hero-lostfound.svg" alt="Ilustrasi layanan Lost and Found di kampus" width="720" height="360">
+        <figcaption class="hero-status"><span class="status-dot"></span><span><strong>87%</strong><br>klaim selesai dalam 48 jam</span></figcaption>
+        <p class="hero-open"><span aria-hidden="true">◷</span> Posko terbuka hari ini · 08.00–21.00</p>
+      </figure>
+    </section>
+
+    <section class="recent-section" aria-labelledby="recent-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Katalog terbaru</p><h2 id="recent-title">Barang Ditemukan 24 Jam Terakhir</h2></div>
+        <a href="daftar-laporan.html" class="text-link">Lihat semua barang <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="item-grid">
+        <article class="item-card">
+          <a class="item-art item-art-wallet" href="detail-laporan.html" aria-label="Lihat detail dompet kulit cokelat"><span aria-hidden="true">▰</span></a>
+          <div class="item-info"><h3>Dompet Kulit Cokelat</h3><p>Gedung A · 2 jam lalu</p><a href="detail-laporan.html">Lihat Detail</a></div>
+        </article>
+        <article class="item-card">
+          <a class="item-art item-art-keys" href="detail-laporan.html" aria-label="Lihat detail kunci motor dan gantungan"><span aria-hidden="true">⚿</span></a>
+          <div class="item-info"><h3>Kunci Motor &amp; Gantungan</h3><p>Parkiran Utama · 3 jam lalu</p><a href="detail-laporan.html">Lihat Detail</a></div>
+        </article>
+        <article class="item-card">
+          <a class="item-art item-art-bottle" href="detail-laporan.html" aria-label="Lihat detail botol minum hijau"><span aria-hidden="true">▯</span></a>
+          <div class="item-info"><h3>Botol Minum Hijau</h3><p>Perpustakaan · 5 jam lalu</p><a href="detail-laporan.html">Lihat Detail</a></div>
+        </article>
+        <article class="item-card">
+          <a class="item-art item-art-calc" href="detail-laporan.html" aria-label="Lihat detail kalkulator scientific"><span aria-hidden="true">▦</span></a>
+          <div class="item-info"><h3>Kalkulator Scientific</h3><p>Gedung C · 6 jam lalu</p><a href="detail-laporan.html">Lihat Detail</a></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <section><a class="footer-brand" href="index.html">Campus L&amp;F</a><p>Layanan resmi Direktorat Kemahasiswaan untuk membantu warga kampus menemukan barang yang hilang.</p></section>
+      <section><h2>Bantuan</h2><a href="daftar-laporan.html">Panduan klaim</a><a href="percakapan-petugas.html">FAQ &amp; bantuan</a><a href="status-klaim.html">Kebijakan privasi</a></section>
+      <section><h2>Customer Service</h2><p>Senin—Jumat, 08.00–17.00</p><p>(021) 555 0188</p></section>
+      <section><h2>Kontak Satpam</h2><p>Pos Satpam Gedung B</p><p>(021) 555 0199</p></section>
+    </div>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>

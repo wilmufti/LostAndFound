@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="260" viewBox="0 0 480 260" role="img" aria-labelledby="title desc">
+  <title id="title">Kartu barang ditemukan</title>
+  <desc id="desc">Ilustrasi kartu mahasiswa, kunci, dan tas sebagai contoh barang laporan.</desc>
+  <rect width="480" height="260" fill="#f7f7f7"/>
+  <rect x="46" y="52" width="160" height="100" rx="10" fill="#ffffff" stroke="#1261a6" stroke-width="4"/>
+  <circle cx="78" cy="92" r="18" fill="#d7e9f8"/>
+  <rect x="110" y="78" width="66" height="12" rx="6" fill="#1261a6"/>
+  <rect x="110" y="104" width="44" height="10" rx="5" fill="#9fc5e8"/>
+  <circle cx="280" cy="100" r="34" fill="#fff3cd" stroke="#c28a00" stroke-width="4"/>
+  <rect x="306" y="96" width="92" height="12" rx="6" fill="#c28a00"/>
+  <rect x="370" y="94" width="14" height="36" fill="#c28a00"/>
+  <path d="M130 180h160c35 0 62 25 62 55H68c0-30 27-55 62-55z" fill="#1f8a70"/>
+</svg>

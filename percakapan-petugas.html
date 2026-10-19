@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Percakapan Petugas - Lost Found Campus</title>
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-brand" href="index.html" aria-label="Campus Lost and Found, beranda"><span class="brand-mark" aria-hidden="true">⌕</span><span>Campus L&amp;F</span></a>
+    <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Buka menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+    <nav id="main-nav" aria-label="Navigasi utama" data-open="false"><ul>
+      <li><a href="index.html">Beranda</a></li><li><a href="daftar-laporan.html">Cari Barang</a></li><li><a href="lapor-hilang.html">Lapor Barang</a></li><li><a href="percakapan-petugas.html">Bantuan</a></li><li><a class="nav-login" href="masuk.html">Masuk</a></li>
+    </ul></nav>
+  </header>
+  <div class="page-toolbar"><a class="back-link" href="dashboard.html"><span aria-hidden="true">←</span> Kembali</a></div>
+
+  <main>
+    <section>
+      <h1>Percakapan dengan petugas</h1>
+      <p>Gunakan halaman ini untuk menanyakan verifikasi laporan dan jadwal pengambilan barang.</p>
+    </section>
+
+    <section aria-labelledby="riwayat-pesan" data-chat-history>
+      <h2 id="riwayat-pesan">Riwayat pesan</h2>
+      <article>
+        <h3>Petugas</h3>
+        <p>Mohon sebutkan warna bagian dalam dompet dan dua kartu yang ada di dalamnya.</p>
+      </article>
+      <article>
+        <h3>Mahasiswa</h3>
+        <p>Bagian dalam berwarna cokelat. Ada KTM dan kartu perpustakaan.</p>
+      </article>
+      <article>
+        <h3>Petugas</h3>
+        <p>Data cocok. Silakan pilih jadwal pengambilan pada halaman status klaim.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Kirim pesan baru</h2>
+      <form action="#" method="post" data-chat-form>
+        <fieldset>
+          <legend>Pesan kepada petugas</legend>
+          <p>
+            <label for="subjek-pesan">Subjek</label>
+            <input type="text" id="subjek-pesan" name="subjek-pesan" required>
+          </p>
+          <p>
+            <label for="isi-pesan">Isi pesan</label>
+            <textarea id="isi-pesan" name="isi-pesan" rows="5" required></textarea>
+          </p>
+          <p>
+            <button type="submit">Kirim pesan</button>
+          </p>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Lost Found Campus - percakapan petugas.</p>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
