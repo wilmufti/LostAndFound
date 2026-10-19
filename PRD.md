@@ -218,9 +218,11 @@ Isi tabel ini bersama kelompok sebelum mengumpulkan dokumen. Nama dan pembagian 
 
 | Nama anggota | Peran/tugas | Kontribusi |
 |---|---|---|
-| Belum diisi | Belum diisi | Belum diisi |
-| Belum diisi | Belum diisi | Belum diisi |
-| Belum diisi | Belum diisi | Belum diisi |
+| Muhammad Asriel Ramadhani | Belum diisi | Belum diisi |
+| Yeremia Paniano Tuuwatno Lalin | Belum diisi | Belum diisi |
+| Yudhistira Adhiaraka | Belum diisi | Belum diisi |
+| Achmad Ichwani | Belum diisi | Belum diisi |
+| Wildan Mufti Brawijaya | Belum diisi | Belum diisi |
 
 ## 14. Referensi
 
@@ -228,4 +230,4 @@ Isi tabel ini bersama kelompok sebelum mengumpulkan dokumen. Nama dan pembagian 
 - Brief dan rubrik: *Brief & Rubrik Penilaian Modul 7*.
 - Instruksi menjalankan proyek: [README.md](README.md).
 - Prompt dan catatan perbaikan: [prompt-log.md](prompt-log.md).
-- Repositori GitHub publik: belum tersedia.
+- Repositori GitHub publik: https://github.com/Adhiaraka/LostAndFound.git
